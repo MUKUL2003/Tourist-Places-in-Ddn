@@ -1,0 +1,70 @@
+body , html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(./images/dallai.jpg);
+    min-height: 100%;
+}
+
+.pimg4{
+    background-image: url(./images/ddn.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pimg2{
+    background-image: url(./images/bhatta\ falls.jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(./images/robbers.jpeg);
+    min-height: 400px;
+}
+
+.pimg1 , .pimg2 , .pimg3  {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 8px ;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background-color: #a2a8d3;
+    color: #113f67;
+    padding: 20px;
+}
+.section{
+    padding:50px 80px ;
+    text-align: center;
+}
+.section-light{
+    background-color: #ececec;
+    color: #142d4c;
+}
+
+.section-dark{
+    background-color: #222831;
+    color: #f96d00;
+}
